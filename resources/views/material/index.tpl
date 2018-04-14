@@ -79,7 +79,7 @@
                       <!--标签1开始-->
                       <article id="1">
                       <h2 class="major">简介</h2>
-                      <p>这里是示范文字</p><p> 请到站点文件夹</p><p>resources/views/material/index.tpl</p><p>第79行进行修改</p></article>
+                      <p>网速非常慢，非常垃圾，别用！</p></article>
 					  <!--
 					  简介修改示例: 
 					  <p> 123</p>
@@ -89,9 +89,8 @@
                       <article id="4">
 								<h2 class="major">联系我们</h2>
 								<ul class="icons">
-                                   <p>此处填写联系方式</p>
                                     <li>
-                                      <a target="_blank" href="#" class="icon fa-facebook">
+                                      <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5N9kqLY" class="fab fa-qq">
 									 <!-- 请在fontawesome.com寻找替换图标 href替换链接 -->
                                       <span class="label">Facebook</span>
                                       </a>
@@ -148,7 +147,7 @@
                               </div>
                      <!-- 版权底部 -->
                       <footer id="footer">
-                   <p class="copyright">&copy;2015-2017 {$config["appName"]}</p>
+                   <p class="copyright">&copy;2017-2018 {$config["appName"]}</p>
                       </footer>
               <!-- 版权结束 -->
 			 </div>
