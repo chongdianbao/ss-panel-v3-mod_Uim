@@ -100,7 +100,7 @@
 
 							</div>
                                        <div class="tab-pane fade" id="all_ssr_ios">
-                                      <p>1：前往用户中心查看App Store账号，国区App Store已下架)</p>
+                                      <p>1：自行注册外区App Store账号，国区App Store已下架)</p>
                                    <p><img src="/images/c_ios_1.jpg"  height="600" width="600" /></p>
                                   <p>2：打开App Store 切换账号，并下载App</p>
                                   <p><img src="/images/c_ios_2.jpg"  height="2000" width="600" /></p>

@@ -86,9 +86,9 @@
                                                           <p><span class="icon icon-lg text-white">looks_two</span> 解压至任意磁盘</p>
                                                           <p><span class="icon icon-lg text-white">looks_3</span> 运行程序</p>
 															
-															<p> <span class="icon icon-lg text-white">looks_4</span> 任务栏右下角右键纸飞机图标--服务器订阅--SSR服务器订阅设置，将订阅链接设置为下面的地址，确定之后再更新 SSR 服务器订阅。</p> 
+															<p> <span class="icon icon-lg text-white">looks_4</span> 任务栏右下角右键纸飞机图标--服务器订阅--SSR服务器订阅设置，将订阅链接设置为下面的地址，确定之后再更新 SSR 服务器订阅（选不通过代理更新）。</p> 
 															<p> <span class="icon icon-lg text-white">looks_5</span> 然后选择一个合适的服务器，代理规则选“绕过局域网和大陆”，然后即可上网。</p> 
-														<p><span class="icon icon-lg text-white">flash_auto</span> 订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=0" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=0">点击拷贝订阅地址</button><br>
+														<p><span class="icon icon-lg text-white">flash_auto</span> 订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=1" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=1">点击拷贝订阅地址</button><br>
 														<!--	单端口多用户端口订阅地址：<code>{$baseUrl}/link/{$ssr_sub_token}?mu=1</code>  -->
 														</p>
                                                        <p><a href="/user/announcement">点击这里查看Windows傻瓜式教程</a></p> 
@@ -100,7 +100,7 @@
                                                       		<p><span class="icon icon-lg text-white">looks_4</span> 打开Launchapad里的ShadowsocksX</p>
                                                       		<p><span class="icon icon-lg text-white">looks_5</span> 菜单栏的纸飞机图标-服务器-服务器订阅填入以下订阅地址，更新后出现您的节点</p>
                                                       <p><span class="icon icon-lg text-white">looks_6</span> 菜单栏的纸飞机图标-打开shadowsocks</p>													
-                                        				<p><span class="icon icon-lg text-white">flash_auto</span> 订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=0" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=0">点击拷贝订阅地址</button><br>
+                                        				<p><span class="icon icon-lg text-white">flash_auto</span> 订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=1" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=1">点击拷贝订阅地址</button><br>
 													
                                                       </p>
                                                       <p><a href="/user/announcement">点击这里查看Mac傻瓜式教程</a></p> 
@@ -109,13 +109,13 @@
                                                       <p><a href="/user/announcement">点击这里查看Linux傻瓜式教程</a></p> 
 													</div>
 													<div class="tab-pane fade" id="all_ssr_ios">
-                                                        <p><span class="icon icon-lg text-white">looks_one</span> 切换<code>App Store</code>账号-ID:<code>XXXXXXX@icloud.com</code> 密码<code>XXXXXXXX</code>注意特殊符号与大小写,如果显示需要解锁账号，请提交工单或邮件。（千万不要试图登陆iCloud，会上传您的照片与通讯录到这个账户上）</p>
+                                                        <p><span class="icon icon-lg text-white">looks_one</span> 切换到App Store外区id比如美区</p>
                                                          <p><span class="icon icon-lg text-white">looks_two</span> 商店搜索<code>Shadowrocket</code>下载安装</p>
                                                       	<p><span class="icon icon-lg text-white">looks_3</span> 安装完成后切换回您自己的账号。（请务必切换回您自己的账户）</p>
 														<p><span class="icon icon-lg text-white">looks_3</span> 打开Shadowrocket软件后，点击右上角<span class="icon icon-lg text-white">add</span>，添加类型为<code>Subscribe</code>，URL填写以下地址即可自动更新节点</p>
                                                       <p><span class="icon icon-lg text-white">looks_4</span> 选择任意节点点击连接，然后点击allow后解锁指纹</p>
                                                       <p><span class="icon icon-lg text-white">looks_5</span> 注意：第一次连接可能不能用，导入后程序退出并重新打开程序后连接即可！</p>
-														<p><span class="icon icon-lg text-white">flash_auto</span> 订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=0" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=0">点击拷贝订阅地址</button><br>
+														<p><span class="icon icon-lg text-white">flash_auto</span> 订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=1" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=1">点击拷贝订阅地址</button><br>
                                                       <p><a href="/user/announcement">点击这里查看iOS傻瓜式教程</a></p> 
 													</div>
 													<div class="tab-pane fade" id="all_ssr_android">
@@ -128,7 +128,7 @@
                                                       <p><span class="icon icon-lg text-white">filter_7</span> 选择任意节点</p>
                                                       <p><span class="icon icon-lg text-white">filter_8</span> 路由选择：略过区域网路以及中国大陆</p>
                                                         <p><span class="icon icon-lg text-white">filter_9</span> 点击右上角的纸飞机图标即可连接</p>
-															<p><span class="icon icon-lg text-white">flash_auto</span> 订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=0" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=0">点击拷贝订阅地址</button><br>
+															<p><span class="icon icon-lg text-white">flash_auto</span> 订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=1" readonly="false"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=1">点击拷贝订阅地址</button><br>
                                                       <p><a href="/user/announcement">点击这里查看Android傻瓜式教程</a></p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_router">
@@ -144,7 +144,7 @@
                                                        <p><span class="icon icon-lg text-white">looks_3</span> 打开桌面程序SSTap</p>
                                                        <p><span class="icon icon-lg text-white">looks_4</span> 齿轮图标-SSR订阅-SSR订阅管理添加以下订阅链接即可</p>
                                                        <p><span class="icon icon-lg text-white">looks_5</span> 更新后选择其中一个节点闪电图标测试节点-测试UDP转发...通过!（UDP通过即可连接并开始游戏），如测试不通过，点击齿轮图标设置DNS，推荐谷歌DNS</p>
-														<p><span class="icon icon-lg text-white">flash_auto</span>	订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=0" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=0">点击拷贝订阅地址</button><br>
+														<p><span class="icon icon-lg text-white">flash_auto</span>	订阅地址：<input type="text" class="input form-control form-control-monospace" name="input1" readonly value="{$baseUrl}/link/{$ssr_sub_token}?mu=1" readonly="true"><button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$baseUrl}/link/{$ssr_sub_token}?mu=1">点击拷贝订阅地址</button><br>
                                                       </p>
                                                       <p><a href="/user/announcement">点击这里查看游戏客户端傻瓜式教程</a></p>
 													</div>
@@ -154,7 +154,7 @@
 														{$ssr_url_all_mu = URL::getAllUrl($pre_user, 1, 0)}
 														{if URL::SSRCanConnect($user)}
 														<dl class="dl-horizontal">
-                                                          <p><dt><code>优先导入普通端口，如果普通端口无法使用再导入单端口</code></dt></p>
+                                                          <p><dt><code>目前仅推荐使用单端口多用户配置</code></dt></p>
 															<p><dt>端口</dt>
 															<dd>{$user->port}</dd></p>
 
@@ -286,7 +286,7 @@
                                           </p>
                                           {if $user->class!=0}
                                           	 <p><dt>Telegram(VIP可见)</dt>
-											<dd><i class="icon icon-md t4-text">stars</i>&nbsp;<a href="请到index.tpl第299行修改" target="view_window">点击加入TG群</a></dd>
+											<dd><i class="icon icon-md t4-text">stars</i>&nbsp;<a href="https://t.me/joinchat/DwHrJA7c8bHHaB5OV-Lc5Q" target="view_window">点击加入TG群</a></dd>
                                           {else}
                                              
                                               {/if}
@@ -322,7 +322,7 @@
 											{else}
 											<dd><i class="icon icon-md">settings_input_component</i>&nbsp;不限速</dd>
 											{/if}</p>
-                                           <p><dt>在线设备数</dt>
+                                           <p><dt>在线IP数</dt>
 										    {if $user->node_connector!=0}
 											<dd><i class="icon icon-md">phonelink</i>&nbsp;{$user->online_ip_count()} / {$user->node_connector}</dd>
 											{else}
