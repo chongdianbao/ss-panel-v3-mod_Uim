@@ -90,10 +90,13 @@
 								<h2 class="major">联系我们</h2>
 								<ul class="icons">
                                     <li>
+				    <!--
                                       <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5N9kqLY" class="fab fa-qq">
 									 <!-- 请在fontawesome.com寻找替换图标 href替换链接 -->
                                       <span class="label">Facebook</span>
                                       </a>
+				      -->
+				      <p>无可奉告</p>
                                     </li>
                                   </ul>
                                   </article>
