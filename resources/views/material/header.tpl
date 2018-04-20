@@ -66,7 +66,9 @@
 			<div class="menu-content">
 				<a class="menu-logo" href="/"><i class="icon icon-lg">language</i>&nbsp;点击返回官网</a>
 				<ul class="nav">
-
+					<li>
+						<a  href="/code"><i class="icon icon-lg">code</i>&nbsp;邀请码</a>
+					</li>
 					{if $user->isLogin}
 					<li>
 						<a  href="/user"><i class="icon icon-lg">person</i>&nbsp;用户中心</a>
@@ -85,11 +87,7 @@
 				     <a  href="/password/reset"><i class="icon icon-lg">security</i>&nbsp;重置密码</a>
 					</li>
 
-                  <li>
-                    <div class="divcss5">
-    					<img  src="/images/Ambassador-menu.png" width="230" height="300"/>
-                      </div>
-					</li>
+                  
 					{/if}
 				</ul>
 			</div>
