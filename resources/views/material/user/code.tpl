@@ -43,7 +43,7 @@
 										<p class="card-heading">充值码</p>
 										<i class="icon icon-lg">view_compact</i>&nbsp;仪表盘
 							<p>当前余额：{$user->money} 元</p>
-                                      <p><a href="http://pr.kuaifaka.com/item/3gfDj2.html">购买充值码地址1</a>&nbsp;<a href="https://www.fakajun.com/space/ssrr.html">购买充值码地址2</a></p>
+                                      <p><a href="http://pr.kuaifaka.com/item/3gfDj2.html">购买充值码地址1</a></p>
 										<div class="form-group form-group-label">
 											<label class="floating-label" for="code">充值码</label>
 											<input class="form-control" id="code" type="text">
